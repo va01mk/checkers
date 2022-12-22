@@ -1,0 +1,33 @@
+.check {
+  width: var(--check-size);
+  height: var(--check-size);
+  border-radius: 50%;
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-sizing: border-box;
+}
+
+.check-light {
+  background-color: burlywood;
+}
+
+.check-dark {
+  background-color: black;
+}
+
+.check-center {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.active {
+  border: 2px solid red;
+}
+
+.selectable {
+  cursor: pointer;
+}

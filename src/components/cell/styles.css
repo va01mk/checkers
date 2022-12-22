@@ -1,0 +1,19 @@
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.light-cell {
+  background-color: azure;
+}
+
+.dark-cell {
+  background-color: dimgrey;
+}
+
+.selectable-cell {
+  background-color: coral;
+  cursor: pointer;
+}

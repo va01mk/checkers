@@ -1,0 +1,5 @@
+:root {
+  --cell-size: 40px;
+  --board-size: 320px;
+  --check-size: 30px;
+}
